@@ -1,5 +1,3 @@
-Hier is een voorbeeld van een README.md-bestand voor je Raycast-extension, gebaseerd op de instellingen en beschrijving:
-
 # Energy Price Tracker for Raycast
 
 This extension displays hourly energy prices (electricity and gas) in the Raycast menu bar. You can view both wholesale and all-in prices, customize various settings, and check upcoming hourly electricity prices and the current daily gas price.

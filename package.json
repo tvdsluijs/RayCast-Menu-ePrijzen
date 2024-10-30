@@ -1,0 +1,11 @@
+{
+  "name": "energy-price-tracker",
+  "title": "Energy Price Tracker",
+  "description": "Shows hourly all-in and wholesale energy prices in the menu bar",
+  "author": "Theo van der Sluijs",
+  "version": "1.0.0",
+  "dependencies": {
+    "@raycast/api": "^1.47.0"
+  },
+  "main": "src/index.js"
+}

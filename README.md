@@ -14,16 +14,11 @@ This extension displays hourly energy prices (electricity and gas) in the Raycas
 
 1. Clone or download this repository.
 2. Install the dependencies:
-   ```bash
-   npm install
+   ```bash npm install```
+3. Run the extension in development mode:
+   ```npm run dev```
 
-	3.	Run the extension in development mode:
-
-npm run dev
-
-
-
-Configuration
+## Configuration
 
 The extension includes the following configurable settings:
 
@@ -36,7 +31,7 @@ The extension includes the following configurable settings:
 	•	Additional Hours (extra_uren): Number of additional hours of electricity prices to display. Default is 6
 	•	Decimal Places (aantal_decimalen): Sets the number of decimal places for displayed prices. Default is 3
 
-How It Works
+## How It Works
 
 The extension fetches wholesale energy prices once per hour from the EnergyZero API and calculates either the wholesale or all-in price based on user settings. Prices are displayed in the Raycast menu bar as follows:
 
@@ -44,7 +39,7 @@ The extension fetches wholesale energy prices once per hour from the EnergyZero 
 
 Clicking on the displayed prices opens a modal showing additional hourly electricity prices and the daily gas price.
 
-Example Menu
+## Example Menu
 
 For example, with an extra_uren setting of 6, the modal might display:
 
@@ -56,14 +51,14 @@ For example, with an extra_uren setting of 6, the modal might display:
 15:00  💡€0.335
 Daily  🔥€0.671
 
-API
+## API
 
 The extension uses the EnergyZero API to retrieve current wholesale prices. Please note:
 
 	•	Gas: usageType=3
 	•	Electricity: usageType=1
 
-Author
+## Author
 
 	•	Theo van der Sluijs
 	•	GitHub
@@ -71,6 +66,6 @@ Author
 
 In his spare time, Theo builds hay steamers and enjoys discussing Python, energy, climate, AI, and tech.
 
-License
+## License
 
 MIT License. See LICENSE for details.

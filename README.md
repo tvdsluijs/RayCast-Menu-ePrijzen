@@ -42,7 +42,7 @@ Clicking on the displayed prices opens a modal showing additional hourly electri
 ## Example Menu
 
 For example, with an extra_uren setting of 6, the modal might display:
-
+```
 10:00  💡€0.342
 11:00  💡€0.333
 12:00  💡€0.352
@@ -50,7 +50,7 @@ For example, with an extra_uren setting of 6, the modal might display:
 14:00  💡€0.322
 15:00  💡€0.335
 Daily  🔥€0.671
-
+```
 ## API
 
 The extension uses the EnergyZero API to retrieve current wholesale prices. Please note:
